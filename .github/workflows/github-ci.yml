@@ -58,6 +58,6 @@ jobs:
     # TODO-STEP 4c: Add command to run tests
     # Hint: Use pytest to run your test cases
     - name: Run tests
-      run: pytest
+      run: pytest --ignore=Answer
 
 # Remember to remove the '#' to uncomment lines when filling in the placeholders
